@@ -1,12 +1,20 @@
 *{
 	margin:0;
 	padding:0;
+  box-sizing: border-box;
+
 }
 
 body{
 	margin-left:2vw;
   font-family: 'Roboto', sans-serif;
 
+}
+
+h1{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: underline;
+	text-decoration-color: #F5522F;
 }
 
 ul {
@@ -49,4 +57,26 @@ li a {
 
 #size-id  {
   padding-left:17vw;
+}
+
+#heading{
+	font-size:100px;
+	text-align: center;
+	margin-top:20vh;
+}
+
+.product-men{
+  width:97%;
+}
+
+.product{
+  float: left;
+  width:23%;
+  margin-top:15vh;
+  margin-left:24px;
+  background-color:#B2DCDE;
+}
+
+.image-size{
+  width:100%;
 }
