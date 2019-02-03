@@ -2,19 +2,15 @@
 	margin:0;
 	padding:0;
   box-sizing: border-box;
-
 }
 
 body{
 	margin-left:2vw;
   font-family: 'Roboto', sans-serif;
-
 }
 
 h1{
 	font-family: 'Roboto Condensed', sans-serif;
-	text-decoration: underline;
-	text-decoration-color: #F5522F;
 }
 
 ul {
@@ -76,8 +72,10 @@ li a {
 
 #heading{
 	font-size:100px;
-	text-align: center;
-	margin-top:18vh;
+	text-align:center;
+	margin-top: 18vh;
+	text-decoration: underline;
+	text-decoration-color: #F5522F;
 }
 
 #product-men{
@@ -99,14 +97,101 @@ li a {
 	padding-top:15px;
 }
 
+
 .product-money{
 	background-color:white;
 	font-family: 'PT Sans', sans-serif;
 	font-size:19px;
 	padding-top:3px;
 	color:#839310;
+	text-decoration:none;
+}
+
+.a-text{
+	text-decoration: none;
+	color:black;
 }
 
 .image-size{
   width:100%;
+}
+
+#heading-1{
+	font-size:100px;
+	text-align:center;
+	margin-top:78vh;
+	margin-bottom:1vh;
+	text-decoration: underline;
+	text-decoration-color: #F5522F;
+}
+
+#product-women{
+	width:97%
+}
+
+.product-w{
+	float: left;
+	width:23%;
+	margin-top:12vh;
+	margin-left:24px;
+	background-color:#B2DCDE;
+}
+
+.image-size-women{
+	width:100%;
+}
+
+.product-text-women{
+	background-color:white;
+	font-family: 'PT Sans', sans-serif;
+	font-size:20px;
+	padding-top:15px;
+}
+
+.product-money-women{
+background-color:white;
+color:#839310;
+font-family: 'PT Sans', sans-serif;
+font-size:19px;
+padding-top:3px;
+}
+
+#product-children{
+	width:97%;
+}
+
+#heading-2{
+	font-size:100px;
+	text-align:center;
+	margin-bottom:1vh;
+	margin-top:82vh;
+	text-decoration: underline;
+	text-decoration-color: #F5522F;
+}
+
+.product-c{
+	float: left;
+	width:23%;
+	margin-top:12vh;
+	margin-left:24px;
+	background-color:#B2DCDE;
+}
+
+.image-size-children{
+	width:100%;
+}
+
+.product-text-children{
+	background-color:white;
+	font-family: 'PT Sans', sans-serif;
+	font-size:20px;
+	padding-top:15px;
+}
+
+.product-money-children{
+	background-color:white;
+	color:#839310;
+	font-family: 'PT Sans', sans-serif;
+	font-size:19px;
+	padding-top:3px;
 }
