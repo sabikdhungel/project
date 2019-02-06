@@ -119,8 +119,8 @@ li a {
 #heading-1{
 	font-size:100px;
 	text-align:center;
-	margin-top:78vh;
-	margin-bottom:1vh;
+	margin-top:79vh;
+	margin-bottom:3vh;
 	text-decoration: underline;
 	text-decoration-color: #F5522F;
 }
@@ -158,12 +158,13 @@ padding-top:3px;
 
 #product-children{
 	width:97%;
+	background-color:black;
 }
 
 #heading-2{
 	font-size:100px;
 	text-align:center;
-	margin-bottom:1vh;
+	margin-bottom:3vh;
 	margin-top:82vh;
 	text-decoration: underline;
 	text-decoration-color: #F5522F;
@@ -194,4 +195,79 @@ padding-top:3px;
 	font-family: 'PT Sans', sans-serif;
 	font-size:19px;
 	padding-top:3px;
+}
+
+#website-footer{
+	background-color: black;
+	overflow: auto;
+	height:35vh;
+	margin-left:5vw;
+	margin-right:7vw;
+}
+
+.footer-navbar{
+	float:left;
+	color:white;
+}
+
+.a-footer{
+	text-decoration: none;
+	color:#E6B0AA;
+}
+
+.a-footer:hover{
+	color:white;
+}
+
+#footer-navbar-1{
+	font-size:25px;
+	padding-left:18vw;
+	/* margin-top:2vh; */
+	padding-top:5vh;
+}
+
+#footer-navbar-2{
+	font-size:30px;
+	padding-left:21vw;
+	padding-top:3vh;
+}
+
+#a-footer-1{
+	padding-bottom: 3vh;
+}
+
+#a-footer-2{
+	padding-bottom: 3vh;
+	padding-top: 3vh;
+
+}
+
+.footer-navbar-11{
+	font-size:25px;
+	color:#E6B0AA;
+}
+
+.footer-navbar-11:hover{
+	color:white;
+}
+
+.footer-a{
+	text-decoration: none;
+}
+
+#footer-navbar-a{
+	padding-top:1vh;
+	padding-left:2vw;
+}
+
+#footer-navbar-b{
+	padding-top:3vh;
+	padding-left:2vw;
+
+}
+
+#footer-navbar-c{
+	padding-top:3vh;
+	padding-left:2vw;
+
 }
