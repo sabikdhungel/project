@@ -73,7 +73,7 @@ li a {
 .product-image{
   margin-top:13vh;
   margin-left:14vw;
-  margin-bottom:100vh;
+  float:left;
 }
 
 .text-photo{
@@ -102,6 +102,83 @@ p{
 
 #image-photo{
   background-color: #B2DCDE;
-  width:45%;
+  widows: 80px;%;
   height:90vh;
+}
+
+#name{
+  font-family: 'PT Sans', sans-serif;
+margin-top:12vh;
+font-size:40px;
+margin-left:2.5vw;
+}
+
+#name-1{
+margin-top:5vh;
+margin-left:2.5vw;
+font-size:25px;
+color:#839310;
+}
+
+#name-2{
+  margin-left:2.5vw;
+  margin-top:3vw;
+  font-size:30px;
+  color:rgb(50, 50, 50);
+  font-family: 'PT Sans', sans-serif;
+
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 63vw;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+#container-1{
+  margin-top:6vh;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 59.7vw;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
 }
