@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 2vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 96%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.active {
+  ;
+  color: #E8DA04;
+  padding-left: 3vw;
+}
+
+.active:hover {
+  color: #C0B400;
+  transition: 0.4s;
+}
+
+#font-bar {
+  font-size: 30px;
+}
+
+.size {
+  font-size: 20px;
+  padding-left: 3vw;
+}
+
+.size:hover {
+  color: #E8DA04;
+  transition: 0.4s;
+}
+
+.size-bar {
+  padding-left: 8vw;
+  padding-top: 16px;
+}
+
+#size-id {
+  padding-left: 22vw;
+}
+
+.product-image {
+  margin-top: 13vh;
+  margin-left: 14vw;
+  float: left;
+}
+
+.text-photo {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#home-image-1, #p-2 {
+  display: inline-block;
+}
+
+.home-image-2 {
+  display: inline-block;
+}
+
+#p-2 {
+  color: #BFB3B3;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+}
+
+.home-image {
+  margin-top: 23vh;
+  margin-left: 15vw;
+}
+
+#image-photo {
+  background-color: #B2DCDE;
+  widows: 80px;
+  %;
+  height: 90vh;
+}
+
+#name {
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 12vh;
+  font-size: 40px;
+  margin-left: 2.5vw;
+  display: inline-block;
+}
+
+#name-1 {
+  margin-top: 5vh;
+  margin-left: 2.5vw;
+  font-size: 25px;
+  color: #839310;
+  display: inline-block;
+}
+
+#name-2 {
+  margin-left: 2.5vw;
+  margin-top: 2.7vw;
+  font-size: 30px;
+  color: rgb(50, 50, 50);
+  font-family: 'PT Sans', sans-serif;
+  display: inline-block;
+}
+
+.product-size {
+  display: block;
+  position: relative;
+  padding-left: 63vw;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+#product-size-1 {
+  margin-top: 5vh;
+}
+
+.product-size input {
+  position: absolute;
+  opacity: 0;
+}
+
+.edited-radio {
+  position: absolute;
+  top: 0;
+  left: 59.7vw;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.product-size:hover input~.edited-radio {
+  background-color: #ccc;
+}
+
+.product-size input:checked~.edited-radio {
+  background-color: #2196F3;
+}
+
+.edited-radio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.product-size input:checked~.edited-radio:after {
+  display: block;
+}
+
+.product-size .edited-radio:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+#name-3 {
+  margin-left: 2.5vw;
+  margin-top: 2.7vw;
+  font-size: 30px;
+  color: rgb(50, 50, 50);
+  display: inline-block;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#product-quantity {
+  margin-left: 2.5vw;
+  margin-top: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 2vw;
+  width: 12%;
+}
+
+::placeholder {
+  font-size: 25px;
+  /* padding-left:0px; */
+}
+
+#checkout-button {
+  margin-left: 2.5vw;
+  margin-top: 5.1vh;
+  padding-top: 2.3vh;
+  padding-bottom: 2.3vh;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  transition: 0.3s;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#checkout-button:hover {
+  opacity: 0.7;
+}
+
+#website-footer {
+  background-color: black;
+  overflow: auto;
+  height: 45vh;
+  margin-left: 5vw;
+  margin-right: 7vw;
+}
+
+.footer-navbar {
+  float: left;
+  color: white;
+}
+
+.a-footer {
+  text-decoration: none;
+  color: #E6B0AA;
+}
+
+.a-footer:hover {
+  color: white;
+}
+
+#footer-navbar-1 {
+  font-size: 25px;
+  padding-left: 18vw;
+  /* margin-top:2vh; */
+  padding-top: 5vh;
+}
+
+#footer-navbar-2 {
+  font-size: 30px;
+  padding-left: 21vw;
+  padding-top: 3vh;
+}
+
+#a-footer-1 {
+  padding-bottom: 4vh;
+  padding-top: 6vh;
+}
+
+#a-footer-2 {
+  padding-bottom: 4vh;
+  padding-top: 4vh;
+}
+
+.footer-navbar-11 {
+  font-size: 25px;
+  color: #E6B0AA;
+}
+
+.footer-navbar-11:hover {
+  color: white;
+}
+
+.footer-a {
+  text-decoration: none;
+}
+
+#footer-navbar-a {
+  padding-top: 1vh;
+  padding-left: 3vw;
+}
+
+#footer-navbar-b {
+  padding-top: 3vh;
+  padding-left: 3vw;
+}
+
+#footer-navbar-c {
+  padding-top: 3vh;
+  padding-left: 3vw;
+}
