@@ -20,16 +20,18 @@ ul {
   overflow: hidden;
   background-color: #333;
   position: fixed;
+  display:flex;
   top: 0;
   width: 96%;
 }
 
 li {
   float: left;
+  /* flex:auto; */
 }
 
 li a {
-  display: block;
+  display: flex;
   color: white;
   text-align: center;
   padding: 10px 16px;
@@ -71,20 +73,25 @@ li a {
 }
 
 #heading {
-  font-size: 100px;
-  text-align: center;
-  margin-top: 18vh;
+  font-size: 98px;
+  margin-top:22vh;
   text-decoration: underline;
   text-decoration-color: #F5522F;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex{
+  display:flex;
 }
 
 #product-men {
-  width: 97%;
+  max-width: 100%;
 }
 
 .product {
-  float: left;
-  width: 23%;
+  /* flex:auto; */
   margin-top: 13vh;
   margin-left: 24px;
   background-color: #B2DCDE;
@@ -117,16 +124,18 @@ li a {
 }
 
 .image-size {
-  width: 100%;
+  max-width: 100%;
 }
 
 #heading-1 {
-  font-size: 100px;
-  text-align: center;
-  margin-top: 79vh;
+  font-size: 98px;
+  margin-top: 25vh;
   margin-bottom: 3vh;
   text-decoration: underline;
   text-decoration-color: #F5522F;
+  display:flex;
+  align-items: center;
+justify-content: center;
 }
 
 #product-women {
@@ -136,7 +145,7 @@ li a {
 .product-w {
   float: left;
   width: 23%;
-  margin-top: 12vh;
+  margin-top: vh;
   margin-left: 24px;
   background-color: #B2DCDE;
   transition: 0.4s;
@@ -171,12 +180,14 @@ li a {
 }
 
 #heading-2 {
-  font-size: 100px;
-  text-align: center;
+  font-size: 98px;
   margin-bottom: 3vh;
-  margin-top: 82vh;
+  margin-top: 25vh;
   text-decoration: underline;
   text-decoration-color: #F5522F;
+  display:flex;
+  align-items: center;
+justify-content: center;
 }
 
 .product-c {
@@ -213,8 +224,10 @@ li a {
 
 #website-footer {
   background-color: black;
+  display:flex;
   overflow: auto;
-  height: 45vh;
+  /* min-width:100% */
+  min-height: 45vh;
   margin-left: 5vw;
   margin-right: 7vw;
   /* margin-top:5vw; */
@@ -223,6 +236,10 @@ li a {
 .footer-navbar {
   float: left;
   color: white;
+  flex:auto;
+  margin:auto;
+  order:2;
+  /* margin-bottom:auto; */
 }
 
 .a-footer {
@@ -239,13 +256,18 @@ li a {
   padding-left: 18vw;
   /* margin-top:2vh; */
   padding-top: 5vh;
+  /* display: */
+  /* flex:0 1 200px; */
 }
 
 #footer-navbar-2 {
   font-size: 30px;
   padding-left: 21vw;
+  display:inline-block;
   padding-top: 3vh;
-}
+/* flex:1 1 500px; */
+  }
+
 
 #a-footer-1 {
   padding-bottom: 4vh;
