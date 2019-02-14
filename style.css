@@ -15,23 +15,24 @@ h1 {
 
 ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: #333;
   position: fixed;
   display:flex;
   top: 0;
-  width: 96%;
+  min-width: 95.3vw;
 }
 
 li {
   float: left;
-  /* flex:auto; */
 }
 
 li a {
-  display: flex;
+  display:inline-block;
+  flex:auto;
+  margin:auto;
+  order: 2;
   color: white;
   text-align: center;
   padding: 10px 16px;
@@ -145,7 +146,7 @@ justify-content: center;
 .product-w {
   float: left;
   width: 23%;
-  margin-top: vh;
+  margin-top: 12vh;
   margin-left: 24px;
   background-color: #B2DCDE;
   transition: 0.4s;
@@ -226,7 +227,9 @@ justify-content: center;
   background-color: black;
   display:flex;
   overflow: auto;
-  /* min-width:100% */
+  /* overflow-x:hidden; */
+
+  min-width:70vw;
   min-height: 45vh;
   margin-left: 5vw;
   margin-right: 7vw;
@@ -256,16 +259,14 @@ justify-content: center;
   padding-left: 18vw;
   /* margin-top:2vh; */
   padding-top: 5vh;
-  /* display: */
-  /* flex:0 1 200px; */
+
 }
 
 #footer-navbar-2 {
   font-size: 30px;
-  padding-left: 21vw;
+  padding-left: 2vw;
   display:inline-block;
   padding-top: 3vh;
-/* flex:1 1 500px; */
   }
 
 
