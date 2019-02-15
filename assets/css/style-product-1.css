@@ -15,13 +15,13 @@ h1 {
 
 ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: #333;
   position: fixed;
+  display:flex;
   top: 0;
-  width: 96%;
+  min-width: 95.3vw;
 }
 
 li {
@@ -29,7 +29,10 @@ li {
 }
 
 li a {
-  display: block;
+  display:inline-block;
+  flex:auto;
+  margin:auto;
+  order: 2;
   color: white;
   text-align: center;
   padding: 10px 16px;
@@ -70,10 +73,17 @@ li a {
   padding-left: 22vw;
 }
 
+
 .product-image {
-  margin-top: 13vh;
-  margin-left: 14vw;
+  margin-top:13vh;
+  margin-left: 5%;
+  margin-right:5%;
+  display:block;
   float: left;
+  height: auto;
+  width: 100%;
+  max-width:600px;
+  background-color:#B2DCDE;
 }
 
 .text-photo {
@@ -103,12 +113,11 @@ li a {
   margin-left: 15vw;
 }
 
-#image-photo {
+/* #image-photo {
   background-color: #B2DCDE;
-  widows: 80px;
-  %;
-  height: 90vh;
-}
+  height: auto;
+  max-width:100%;
+} */
 
 #name {
   font-family: 'PT Sans', sans-serif;
@@ -236,15 +245,24 @@ li a {
 
 #website-footer {
   background-color: black;
+  display:flex;
   overflow: auto;
-  height: 45vh;
+  /* overflow-x:hidden; */
+
+  min-width:70vw;
+  min-height: 45vh;
   margin-left: 5vw;
   margin-right: 7vw;
+  /* margin-top:5vw; */
 }
 
 .footer-navbar {
   float: left;
   color: white;
+  flex:auto;
+  margin:auto;
+  order:2;
+  /* margin-bottom:auto; */
 }
 
 .a-footer {
@@ -261,13 +279,16 @@ li a {
   padding-left: 18vw;
   /* margin-top:2vh; */
   padding-top: 5vh;
+
 }
 
 #footer-navbar-2 {
   font-size: 30px;
-  padding-left: 21vw;
+  padding-left: 2vw;
+  display:inline-block;
   padding-top: 3vh;
-}
+  }
+
 
 #a-footer-1 {
   padding-bottom: 4vh;
