@@ -24,41 +24,43 @@
     <h1 class="home-image" id="home-image-1"><a href="../../index.html" class="text-photo">Home</a></h1>
     / <h1 class="home-image-2"><a href="../../index.html#product-childre " id="text--photo-1" style="text-decoration: none;
   color:black;  font-weight: lighter;  font-size: 20px;  font-family: 'PT Sans', sans-serif;">Children</a></h1> /
-    <p id="p-2"> Cousin Eddie T-Shirt</p>
+    <p id="p-2"> Product-10</p>
   </section>
   <section>
-    <div class="product-image">
+    <div class="flex">
+    <div class="product-image flex-row">
       <img src="../images/sleeveless-children.jpg" id="image-photo">
     </div>
-  </section>
-  <section class="info-product ">
-    <div class="product-name">
-      <h1 id="name">Cousin Eddie T-Shirt</h1><br>
-      <p id="name-1">Rs. 800</p>
+    <div class="flex-column">
+      <div class="product-name">
+        <h1 id="name">Product-10</h1><br>
+        <p id="name-1">Rs. 800</p>
+      </div>
+      <div>
+        <h1 id="name-2">Size :-</h1>
+        <label class="product-size" id="product-size-1">Small
+          <input type="radio" checked="checked" name="radio">
+          <span class="edited-radio"></span>
+        </label>
+        <label class="product-size">Medium
+          <input type="radio" name="radio">
+          <span class="edited-radio"></span>
+        </label>
+        <label class="product-size">Large
+          <input type="radio" name="radio">
+          <span class="edited-radio"></span>
+        </label>
+      </div>
+      <div>
+        <h1 id="name-3">Quantity :-</h1><br>
+        <input type="number" id="product-quantity" placeholder="1">
+      </div>
+      <div>
+        <a href="checkout-form.html"><button id="checkout-button">Buy the Product</button></a>
+      </div>
     </div>
-    <div>
-      <h1 id="name-2">Size :-</h1>
-      <label class="product-size" id="product-size-1">Small
-        <input type="radio" checked="checked" name="radio">
-        <span class="edited-radio"></span>
-      </label>
-      <label class="product-size">Medium
-        <input type="radio" name="radio">
-        <span class="edited-radio"></span>
-      </label>
-      <label class="product-size">Large
-        <input type="radio" name="radio">
-        <span class="edited-radio"></span>
-      </label>
-    </div>
-    <div>
-      <h1 id="name-3">Quantity :-</h1><br>
-      <input type="number" id="product-quantity" placeholder="1" style="font-size:25px; padding-left:25px;">
-    </div>
-    <div>
-      <a href="checkout-form.html"><button id="checkout-button">Buy the Product</button></a>
-    </div>
-  </section>
+  </div>
+</section>
   <footer style="margin-top:47vh">
     <div id="website-footer">
       <div class="footer-navbar" id="footer-navbar-1">
