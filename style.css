@@ -35,12 +35,11 @@ li a {
   order: 2;
   color: white;
   text-align: center;
-  padding: 10px 16px;
+  padding: 2vh 1.5vw;
   text-decoration: none;
 }
 
 .active {
-  ;
   color: #E8DA04;
   padding-left: 3vw;
 }
@@ -51,11 +50,12 @@ li a {
 }
 
 #font-bar {
-  font-size: 30px;
+  font-size: 1.6vw;
+  /* padding-top:2.6vh; */
 }
 
 .size {
-  font-size: 20px;
+  font-size: 1.6vw;
   padding-left: 3vw;
 }
 
@@ -66,7 +66,7 @@ li a {
 
 .size-bar {
   padding-left: 8vw;
-  padding-top: 16px;
+  /* padding-top: 2.6vh; */
 }
 
 #size-id {
@@ -92,6 +92,7 @@ li a {
 }
 
 .product {
+  /* float:left; */
   /* flex:auto; */
   margin-top: 13vh;
   margin-left: 24px;
@@ -125,7 +126,7 @@ li a {
 }
 
 .image-size {
-  max-width: 100%;
+  width: 100%;
 }
 
 #heading-1 {
@@ -140,12 +141,12 @@ justify-content: center;
 }
 
 #product-women {
-  width: 97%
+  /* width: 97% */
 }
 
 .product-w {
-  float: left;
-  width: 23%;
+  /* float: left; */
+  /* width: 23%; */
   margin-top: 12vh;
   margin-left: 24px;
   background-color: #B2DCDE;
@@ -226,18 +227,18 @@ justify-content: center;
 #website-footer {
   background-color: black;
   display:flex;
-  overflow: auto;
+  /* overflow: auto; */
   /* overflow-x:hidden; */
 
-  min-width:70vw;
-  min-height: 45vh;
+  /* min-width:70vw; */
+  /* min-height: 45vh; */
   margin-left: 5vw;
   margin-right: 7vw;
   /* margin-top:5vw; */
 }
 
 .footer-navbar {
-  float: left;
+  /* float: left; */
   color: white;
   flex:auto;
   margin:auto;
@@ -254,8 +255,9 @@ justify-content: center;
   color: white;
 }
 
+
 #footer-navbar-1 {
-  font-size: 25px;
+  font-size: 2vw;
   padding-left: 18vw;
   /* margin-top:2vh; */
   padding-top: 5vh;
@@ -263,7 +265,7 @@ justify-content: center;
 }
 
 #footer-navbar-2 {
-  font-size: 30px;
+  font-size: 2.5vw;
   padding-left: 2vw;
   display:inline-block;
   padding-top: 3vh;
@@ -272,7 +274,7 @@ justify-content: center;
 
 #a-footer-1 {
   padding-bottom: 4vh;
-  padding-top: 6vh;
+  padding-top: 2vh;
 }
 
 #a-footer-2 {
@@ -280,8 +282,12 @@ justify-content: center;
   padding-top: 4vh;
 }
 
+#a-footer-4{
+padding-bottom:2vh;
+}
+
 .footer-navbar-11 {
-  font-size: 25px;
+  font-size: 2vw;
   color: #E6B0AA;
 }
 

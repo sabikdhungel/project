@@ -76,14 +76,17 @@ li a {
 
 .product-image {
   margin-top:13vh;
-  margin-left: 5%;
-  margin-right:5%;
-  display:block;
-  float: left;
-  height: auto;
-  width: 100%;
-  max-width:600px;
+  margin-left: 13vw;
+  /* display:block; */
+  /* float: left; */
+  /* height: auto; */
+  /* max-width:100%; */
   background-color:#B2DCDE;
+}
+
+.product-image-1{
+  /* max-width:100%; */
+  width:100%;
 }
 
 .text-photo {
@@ -92,6 +95,10 @@ li a {
   font-weight: lighter;
   font-size: 20px;
   font-family: 'PT Sans', sans-serif;
+}
+
+.flex{
+  display:flex;
 }
 
 #home-image-1, #p-2 {
@@ -136,12 +143,12 @@ li a {
 }
 
 #name-2 {
-  margin-left: 2.5vw;
+  /* margin-left: 2.5vw; */
   margin-top: 2.7vw;
   font-size: 30px;
   color: rgb(50, 50, 50);
   font-family: 'PT Sans', sans-serif;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .product-size {

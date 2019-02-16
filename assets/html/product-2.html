@@ -27,36 +27,39 @@
     <p id="p-2"> King of the Castle</p>
   </section>
   <section>
-    <div class="product-image">
-      <img src="../images/tshirt-men.jpg" id="image-photo">
-    </div>
-  </section>
-  <section class="info-product ">
-    <div class="product-name">
-      <h1 id="name">King of the Castle</h1><br>
-      <p id="name-1">Rs. 900</p>
-    </div>
-    <div>
-      <h1 id="name-2">Size :-</h1>
-      <label class="product-size" id="product-size-1">Small
-        <input type="radio" checked="checked" name="radio">
-        <span class="edited-radio"></span>
-      </label>
-      <label class="product-size">Medium
-        <input type="radio" name="radio">
-        <span class="edited-radio"></span>
-      </label>
-      <label class="product-size">Large
-        <input type="radio" name="radio">
-        <span class="edited-radio"></span>
-      </label>
-    </div>
-    <div>
-      <h1 id="name-3">Quantity :-</h1><br>
-      <input type="number" id="product-quantity" placeholder="1" style="font-size:25px; padding-left:25px;">
-    </div>
-    <div>
-      <a href="checkout-form.html"><button id="checkout-button">Buy the Product</button></a>
+    <div class="flex">
+      <div class="product-image flex-row">
+        <img src="../images/tshirt-men.jpg" id="image-photo">
+      </div>
+      <div class="flex-column">
+        <div class="product-name">
+          <h1 id="name">King of the Castle</h1><br>
+          <p id="name-1">Rs. 900</p>
+        </div>
+        <div>
+          <h1 id="name-2">Size :-</h1>
+          <label class="product-size" id="product-size-1">Small
+            <input type="radio" checked="checked" name="radio">
+            <span class="edited-radio"></span>
+          </label>
+          <label class="product-size">Medium
+            <input type="radio" name="radio">
+            <span class="edited-radio"></span>
+          </label>
+          <label class="product-size">Large
+            <input type="radio" name="radio">
+            <span class="edited-radio"></span>
+          </label>
+        </div>
+        <div>
+          <h1 id="name-3">Quantity :-</h1><br>
+          <input type="number" id="product-quantity" placeholder="1">
+        </div>
+        <div>
+          <a href="checkout-form.html"><button id="checkout-button">Buy the Product</button></a>
+
+        </div>
+      </div>
     </div>
   </section>
   <footer style="margin-top:47vh">
